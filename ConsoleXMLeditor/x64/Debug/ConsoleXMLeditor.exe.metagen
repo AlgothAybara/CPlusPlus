@@ -1,0 +1,22 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ConsoleXMLeditor, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class XML_DAL: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OpenXmlFile(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    EditNodeAttribute(XmlElement, String, String): PrivateScope, Public, HideBySig
+    AddNode(XmlDocument, String): PrivateScope, Public, HideBySig
+    AddChild(XmlDocument, XmlElement, String, String): PrivateScope, Public, HideBySig
+    SaveXML(XmlDocument, String): PrivateScope, Public, HideBySig
+    CreateXML(String): PrivateScope, Public, HideBySig
+    PrintXML(XmlDocument): PrivateScope, Public, HideBySig
+    ConvertStdString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    FileExist(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    FileExist(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
