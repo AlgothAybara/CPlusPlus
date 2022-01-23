@@ -1,0 +1,4 @@
+﻿  ConsoleXMLeditor.cpp
+c1xx : warning C4857: C++/CLI mode does not support C++ versions newer than C++17; setting language to /std:c++17
+  ConsoleXMLeditor.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ConsoleXMLeditor.vcxproj -> C:\Users\Aaron Young\Documents\BYUI\Winter 2022\CSE-310\Console XML Editor\ConsoleXMLeditor\x64\Debug\ConsoleXMLeditor.exe
